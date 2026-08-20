@@ -86,6 +86,7 @@ During my apprenticeship at SUPINFO Paris, I worked on several internal tools an
 * SQL Server database analysis and exploitation
 * Internal tools using **C#/WPF**, **React**, **Node.js** and **PostgreSQL**
 * Technical documentation and process reliability improvement
+* Teaching C and C++ programming to 2nd and 3rd-year students
 
 ---
 
