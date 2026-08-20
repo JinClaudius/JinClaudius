@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Jean Gouttier 👋</h1>
 
 <h3 align="center">
-Applied AI & Information Systems · LLM · NLP · Automation · Backend Development
+Applied AI Engineer · LLM · NLP · Automation · Backend Development
 </h3>
 
 <p align="center">
@@ -20,7 +20,7 @@ Applied AI & Information Systems · LLM · NLP · Automation · Backend Developm
 
 ## About me
 
-I am a final-year Master's student focused on **Applied AI** and **Information Systems**.
+I build and ship applied AI systems: LLM integration, structured information extraction, computer vision models and data pipelines. Graduating from Epitech in September 2026 (MSc-level, AI specialisation) after nearly three years of apprenticeship in production environments.
 
 My profile combines software development, internal tools, data processing and business process automation. I am currently building my skills around **LLMs**, **RAG**, **NLP** and AI-powered document analysis.
 
@@ -40,6 +40,21 @@ My goal is to build practical AI tools that solve real business problems and can
 ---
 
 ## Selected projects
+
+### PneumonIA — Medical image classification
+
+Chest X-ray classification into three classes (Normal / Bacterial / Viral pneumonia),
+evaluated on a 624-image test set.
+
+**EfficientNet-B0 fine-tuned: 89% accuracy, 0.88 macro F1.** The most instructive part
+was diagnosing a scratch CNN that reached 80% accuracy while never once predicting the
+minority class — corrected through class weighting, LR scheduling and training-split-only
+augmentation, bringing VIRAL F1 from 0.00 to 0.80. Predictions explained with Grad-CAM.
+
+**Tech:** Python · PyTorch · scikit-learn · PCA · Grad-CAM · OpenCV
+**Code:** [github.com/JinClaudius/PneumonIA](https://github.com/JinClaudius/PneumonIA)
+
+---
 
 ### VerifDoc — AI document analysis API
 
@@ -61,15 +76,6 @@ The goal is to extract departure and destination locations, detect invalid reque
 
 ---
 
-### PneumonIA — Medical image classification
-
-Academic deep learning project for chest X-ray classification.
-
-The project includes baseline models, EfficientNet experiments and Grad-CAM visualizations to interpret image regions influencing predictions.
-
-**Tech:** Python · PyTorch · scikit-learn · PCA · Grad-CAM
-
----
 
 ### Internal tools & automation
 
@@ -92,7 +98,7 @@ During my apprenticeship at SUPINFO Paris, I worked on several internal tools an
 ![RAG](https://img.shields.io/badge/RAG-2563EB?style=flat-square)
 ![NLP](https://img.shields.io/badge/NLP-1D4ED8?style=flat-square)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square\&logo=pandas\&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-FF6F00?style=flat-square\&logo=tensorflow\&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 ### Backend & APIs
 
