@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Jean Gouttier 👋</h1>
 
 <h3 align="center">
-Applied AI & Information Systems student · LLM · NLP · Automation · Backend Development
+Applied AI & Information Systems · LLM · NLP · Automation · Backend Development
 </h3>
 
 <p align="center">
@@ -33,7 +33,7 @@ My goal is to build practical AI tools that solve real business problems and can
 ## Current focus
 
 * Building **VerifDoc**, a FastAPI-based document analysis API.
-* Learning and applying **LLM integration**, **structured prompting**, **RAG basics** and **AI agents**.
+* Building with **LLM integration**, **structured prompting**, **RAG** and **AI agents**.
 * Improving my backend architecture with **Python**, **FastAPI**, **SQL** and clean API design.
 * Developing projects around **NLP**, **information extraction** and **business automation**.
 
@@ -67,7 +67,7 @@ Academic deep learning project for chest X-ray classification.
 
 The project includes baseline models, EfficientNet experiments and Grad-CAM visualizations to interpret image regions influencing predictions.
 
-**Tech:** Python · TensorFlow/Keras · scikit-learn · PCA · Grad-CAM
+**Tech:** Python · PyTorch · scikit-learn · PCA · Grad-CAM
 
 ---
 
@@ -92,7 +92,7 @@ During my apprenticeship at SUPINFO Paris, I worked on several internal tools an
 ![RAG](https://img.shields.io/badge/RAG-2563EB?style=flat-square)
 ![NLP](https://img.shields.io/badge/NLP-1D4ED8?style=flat-square)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square\&logo=pandas\&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square\&logo=tensorflow\&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-FF6F00?style=flat-square\&logo=tensorflow\&logoColor=white)
 
 ### Backend & APIs
 
