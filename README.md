@@ -30,16 +30,54 @@ My goal is to build practical AI tools that solve real business problems and can
 
 ---
 
-## Current focus
+## Currently
 
-* Building **VerifDoc**, a FastAPI-based document analysis API.
-* Building with **LLM integration**, **structured prompting**, **RAG** and **AI agents**.
-* Improving my backend architecture with **Python**, **FastAPI**, **SQL** and clean API design.
-* Developing projects around **NLP**, **information extraction** and **business automation**.
+**Looking for a permanent role (CDI) as an AI Engineer or Data Engineer
+in the Paris area or remote.** Graduated from Epitech in September 2026.
+
+* Building small, well-documented systems around LLMs: context
+  management, structured outputs, failure handling.
+* Deepening RAG, agent patterns and evaluation of AI systems.
 
 ---
 
 ## Selected projects
+
+### Conversational chatbot with context management
+
+A 200-line CLI chat over a local LLM. The interesting part was not the
+model call, it was everything that breaks around it.
+
+Three problems I hit and fixed: an inconsistent history when streaming
+fails mid-response (the user message is stored, the answer never
+arrives, and the next turn sends two consecutive user messages);
+capping history by message count instead of tokens, which ignores what
+actually fills the context window; and replacing truncation with
+summarisation, which simply moved the growth problem into a system
+message that no reduction step ever touched.
+
+**Tech:** Python · Ollama · streaming · token budgeting
+**Code:** [github.com/JinClaudius/PneumonIA](https://github.com/JinClaudius/AI-Chat)
+
+---
+
+### BagTrip — AI travel planning (team project, 5 people)
+
+Final-year Epitech project where I acted as project lead on the AI side.
+The system plans a full trip from a single prompt: destinations,
+flights, accommodation, activities, packing list and budget.
+
+I led the AI workstream and prototyped the orchestration in n8n, then
+decided to drop it for a Python implementation once error handling and
+testability became the priority. The final implementation was built by
+two developers on the team.
+
+**Architecture:** multi-agent pipeline over SSE streaming, ReAct
+executor (the target model had no native function calling), embedding
+based recommendation where the destination is locked server-side so the
+model cannot invent one.
+
+---
 
 ### PneumonIA — Medical image classification
 
